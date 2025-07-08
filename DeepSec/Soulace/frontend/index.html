@@ -1,13 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Soulace</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="background"></canvas>
+
+  <div class="centered-container">
+    <h1>Soulace</h1>
+    <p>
+      Your Identity. Your Access.<br/>
+      Powered by Blockchain.<br/>
+      Secured with Soulbound Tokens.
+    </p>
+    <button onclick="location.href='login.html'">Get Started</button>
+  </div>
+
+  <script src="background.js"></script>
+</body>
 </html>
